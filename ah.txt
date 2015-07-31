@@ -1,0 +1,8 @@
+hmac-md5        128
+hmac-sha1       160
+keyed-md5       128
+keyed-sha1      160
+hmac-sha2-256   256
+hmac-sha2-384   384
+hmac-sha2-512   512
+hmac-ripemd160  160

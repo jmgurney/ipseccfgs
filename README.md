@@ -1,0 +1,13 @@
+set of scripts and configs for testing ipsec...
+
+mk.sh will take all the .conf files, and create a (master) and b (slave)
+to drive the tests...  To create the files, it prepends common.ab, and
+appends either sp.ah.[ab] or sp.esp.[ab] depending upon if the conf
+file starts w/ either ah or esp...
+
+Some base config files can be created using the mkah.sh and mkesp.sh
+scripts... They use ah.txt and esp.txt to create config files...
+
+The scripts master.sh and slave.sh will drive the tests, simply start
+slave.sh on one machine, and then run master.sh on another, and away
+things go...

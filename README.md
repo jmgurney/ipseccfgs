@@ -23,6 +23,7 @@ conf file in the subdirs, it prepends common.ab, and appends either
 sp.ah.[ab] or sp.esp.[ab] depending upon if the conf file starts w/
 either ah or esp.
 
-The scripts master.sh and slave.sh will drive the tests, simply start
-slave.sh on one machine, and then run master.sh on another, and away
-things go...
+genkeys.sh:
+This is a script that will generate all keys sizes from 1 through 80 bytes,
+and all ah and esp algorithms specified in ah.txt and esp.txt.  This is
+to make sure things don't panic or other bad behavior.

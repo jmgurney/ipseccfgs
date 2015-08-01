@@ -3,7 +3,6 @@ des-cbc         64
 blowfish-cbc    256
 cast128-cbc     128
 des-deriv       64
-3des-deriv      192
 rijndael-cbc    128
 rijndael-cbc	192
 rijndael-cbc	256
